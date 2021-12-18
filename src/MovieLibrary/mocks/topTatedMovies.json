@@ -1,387 +1,426 @@
 [
-  {
-    "vote_count": 1883,
-    "id": 19404,
-    "video": false,
-    "vote_average": 9.2,
-    "title": "Dilwale Dulhania Le Jayenge",
-    "popularity": 13.816,
-    "poster_path": "/uC6TTUhPpQCmgldGyYveKRAu8JN.jpg",
-    "original_language": "hi",
-    "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
-    "backdrop_path": "/nl79FQ8xWZkhL3rDr1v2RFFR6J0.jpg",
-    "adult": false,
-    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
-    "release_date": "1995-10-20"
-  },
-  {
-    "vote_count": 11027,
-    "id": 278,
-    "video": false,
-    "vote_average": 8.6,
-    "title": "The Shawshank Redemption",
-    "popularity": 36.049,
-    "poster_path": "/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg",
-    "original_language": "en",
-    "original_title": "The Shawshank Redemption",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "backdrop_path": "/j9XKiZrVeViAixVRzCta7h1VU9W.jpg",
-    "adult": false,
-    "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-    "release_date": "1994-09-23"
-  },
-  {
-    "vote_count": 8432,
-    "id": 238,
-    "video": false,
-    "vote_average": 8.6,
-    "title": "The Godfather",
-    "popularity": 23.636,
-    "poster_path": "/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg",
-    "original_language": "en",
-    "original_title": "The Godfather",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "backdrop_path": "/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg",
-    "adult": false,
-    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
-    "release_date": "1972-03-14"
-  },
-  {
-    "vote_count": 2902,
-    "id": 372058,
-    "video": false,
-    "vote_average": 8.5,
-    "title": "Your Name.",
-    "popularity": 25.604,
-    "poster_path": "/xq1Ugd62d23K2knRUx6xxuALTZB.jpg",
-    "original_language": "ja",
-    "original_title": "君の名は。",
-    "genre_ids": [
-      10749,
-      16,
-      18
-    ],
-    "backdrop_path": "/6vkhRvsRvWpmaRVyCXaxTkIEb7j.jpg",
-    "adult": false,
-    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    "release_date": "2016-08-26"
-  },
-  {
-    "vote_count": 6450,
-    "id": 424,
-    "video": false,
-    "vote_average": 8.5,
-    "title": "Schindler's List",
-    "popularity": 26.984,
-    "poster_path": "/yPisjyLweCl1tbgwgtzBCNCBle.jpg",
-    "original_language": "en",
-    "original_title": "Schindler's List",
-    "genre_ids": [
-      18,
-      36,
-      10752
-    ],
-    "backdrop_path": "/cTNYRUTXkBgPH3wP3kmPUB5U6dA.jpg",
-    "adult": false,
-    "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-    "release_date": "1993-12-15"
-  },
-  {
-    "vote_count": 5976,
-    "id": 129,
-    "video": false,
-    "vote_average": 8.5,
-    "title": "Spirited Away",
-    "popularity": 27.412,
-    "poster_path": "/dL11DBPcRhWWnJcFXl9A07MrqTI.jpg",
-    "original_language": "ja",
-    "original_title": "千と千尋の神隠し",
-    "genre_ids": [
-      16,
-      10751,
-      14
-    ],
-    "backdrop_path": "/djgM2d3e42p9GFQObg6lwK2SVw2.jpg",
-    "adult": false,
-    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-    "release_date": "2001-07-20"
-  },
-  {
-    "vote_count": 4886,
-    "id": 240,
-    "video": false,
-    "vote_average": 8.5,
-    "title": "The Godfather: Part II",
-    "popularity": 20.783,
-    "poster_path": "/bVq65huQ8vHDd1a4Z37QtuyEvpA.jpg",
-    "original_language": "en",
-    "original_title": "The Godfather: Part II",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "backdrop_path": "/gLbBRyS7MBrmVUNce91Hmx9vzqI.jpg",
-    "adult": false,
-    "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-    "release_date": "1974-12-20"
-  },
-  {
-    "vote_count": 6491,
-    "id": 497,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "The Green Mile",
-    "popularity": 21.281,
-    "poster_path": "/sOHqdY1RnSn6kcfAHKu28jvTebE.jpg",
-    "original_language": "en",
-    "original_title": "The Green Mile",
-    "genre_ids": [
-      14,
-      18,
-      80
-    ],
-    "backdrop_path": "/Rlt20sEbOQKPVjia7lUilFm49W.jpg",
-    "adult": false,
-    "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-    "release_date": "1999-12-10"
-  },
-  {
-    "vote_count": 5843,
-    "id": 637,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Life Is Beautiful",
-    "popularity": 18.867,
-    "poster_path": "/f7DImXDebOs148U4uPjI61iDvaK.jpg",
-    "original_language": "it",
-    "original_title": "La vita è bella",
-    "genre_ids": [
-      35,
-      18
-    ],
-    "backdrop_path": "/bORe0eI72D874TMawOOFvqWS6Xe.jpg",
-    "adult": false,
-    "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
-    "release_date": "1997-12-20"
-  },
-  {
-    "vote_count": 12575,
-    "id": 680,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Pulp Fiction",
-    "popularity": 39.11,
-    "poster_path": "/dM2w364MScsjFf8pfMbaWUcWrR.jpg",
-    "original_language": "en",
-    "original_title": "Pulp Fiction",
-    "genre_ids": [
-      53,
-      80
-    ],
-    "backdrop_path": "/4cDFJr4HnXN5AdPw4AKrmLlMWdO.jpg",
-    "adult": false,
-    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-    "release_date": "1994-09-10"
-  },
-  {
-    "vote_count": 3885,
-    "id": 539,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Psycho",
-    "popularity": 19.59,
-    "poster_path": "/81d8oyEFgj7FlxJqSDXWr8JH8kV.jpg",
-    "original_language": "en",
-    "original_title": "Psycho",
-    "genre_ids": [
-      18,
-      27,
-      53
-    ],
-    "backdrop_path": "/3md49VBCeqY6MSNyAVY6d5eC6bA.jpg",
-    "adult": false,
-    "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
-    "release_date": "1960-06-16"
-  },
-  {
-    "vote_count": 13687,
-    "id": 550,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Fight Club",
-    "popularity": 38.821,
-    "poster_path": "/adw6Lq9FiC9zjYEpOqfq03ituwp.jpg",
-    "original_language": "en",
-    "original_title": "Fight Club",
-    "genre_ids": [
-      18
-    ],
-    "backdrop_path": "/87hTDiay2N2qWyX4Ds7ybXi9h8I.jpg",
-    "adult": false,
-    "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-    "release_date": "1999-10-15"
-  },
-  {
-    "vote_count": 16168,
-    "id": 155,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "The Dark Knight",
-    "popularity": 37.521,
-    "poster_path": "/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg",
-    "original_language": "en",
-    "original_title": "The Dark Knight",
-    "genre_ids": [
-      18,
-      28,
-      80,
-      53
-    ],
-    "backdrop_path": "/hqkIcbrOHL86UncnHIsHVcVmzue.jpg",
-    "adult": false,
-    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-    "release_date": "2008-07-16"
-  },
-  {
-    "vote_count": 3038,
-    "id": 389,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "12 Angry Men",
-    "popularity": 17.258,
-    "poster_path": "/3W0v956XxSG5xgm7LB6qu8ExYJ2.jpg",
-    "original_language": "en",
-    "original_title": "12 Angry Men",
-    "genre_ids": [
-      18
-    ],
-    "backdrop_path": "/lH2Ga8OzjU1XlxJ73shOlPx6cRw.jpg",
-    "adult": false,
-    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-    "release_date": "1957-03-25"
-  },
-  {
-    "vote_count": 1778,
-    "id": 311,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Once Upon a Time in America",
-    "popularity": 16.614,
-    "poster_path": "/fqP3Q7DWMFqW7mh11hWXbNwN9rz.jpg",
-    "original_language": "en",
-    "original_title": "Once Upon a Time in America",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "backdrop_path": "/vnT6HzjLSDrAweHn9xWykb8Ii6T.jpg",
-    "adult": false,
-    "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
-    "release_date": "1984-05-23"
-  },
-  {
-    "vote_count": 11972,
-    "id": 13,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Forrest Gump",
-    "popularity": 34.789,
-    "poster_path": "/yE5d3BUhE8hCnkMUJOo1QDoOGNz.jpg",
-    "original_language": "en",
-    "original_title": "Forrest Gump",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
-    "backdrop_path": "/7c9UVPPiTPltouxRVY6N9uugaVA.jpg",
-    "adult": false,
-    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him. “Forrest Gump” is the story of a man who rises above his challenges and who proves that determination, courage, and love are more important than ability.",
-    "release_date": "1994-07-06"
-  },
-  {
-    "vote_count": 6448,
-    "id": 244786,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Whiplash",
-    "popularity": 37.767,
-    "poster_path": "/lIv1QinFqz4dlp5U4lQ6HaiskOZ.jpg",
-    "original_language": "en",
-    "original_title": "Whiplash",
-    "genre_ids": [
-      18
-    ],
-    "backdrop_path": "/6bbZ6XyvgfjhQwbplnUh1LSj1ky.jpg",
-    "adult": false,
-    "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-    "release_date": "2014-10-10"
-  },
-  {
-    "vote_count": 417,
-    "id": 538362,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "On My Skin",
-    "popularity": 32.405,
-    "poster_path": "/woamzsZd0F4TF5kA00Dpy3ahGtB.jpg",
-    "original_language": "it",
-    "original_title": "Sulla mia pelle",
-    "genre_ids": [
-      18
-    ],
-    "backdrop_path": "/lpuehRS74pgVYIQ6ZQ2fIAaoAvo.jpg",
-    "adult": false,
-    "overview": "The incredible true story behind the most controversial Italian court cases in recent years. Stefano Cucchi was arrested for a minor crime and mysteriously found dead during his detention. In one week's time, a family is changed forever.",
-    "release_date": "2018-09-12"
-  },
-  {
-    "vote_count": 1591,
-    "id": 12477,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "Grave of the Fireflies",
-    "popularity": 0.6,
-    "poster_path": "/4u1vptE8aXuzb5zauZTmikyectV.jpg",
-    "original_language": "ja",
-    "original_title": "火垂るの墓",
-    "genre_ids": [
-      16,
-      18,
-      10752
-    ],
-    "backdrop_path": "/fCUIuG7y4YKC3hofZ8wsj7zhCpR.jpg",
-    "adult": false,
-    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
-    "release_date": "1988-04-16"
-  },
-  {
-    "vote_count": 4515,
-    "id": 510,
-    "video": false,
-    "vote_average": 8.4,
-    "title": "One Flew Over the Cuckoo's Nest",
-    "popularity": 28.28,
-    "poster_path": "/2Sns5oMb356JNdBHgBETjIpRYy9.jpg",
-    "original_language": "en",
-    "original_title": "One Flew Over the Cuckoo's Nest",
-    "genre_ids": [
-      18
-    ],
-    "backdrop_path": "/4E7YQcwui0PfNXguf4V2X8YocPC.jpg",
-    "adult": false,
-    "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
-    "release_date": "1975-11-18"
-  }
+    {
+        "adult": false,
+        "backdrop_path": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+        "genre_ids":
+        [
+            878,
+            28,
+            12
+        ],
+        "id": 580489,
+        "original_language": "en",
+        "original_title": "Venom: Let There Be Carnage",
+        "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+        "popularity": 8774.196,
+        "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+        "release_date": "2021-09-30",
+        "title": "Venom: Let There Be Carnage",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 4596
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/VlHt27nCqOuTnuX6bku8QZapzO.jpg",
+        "genre_ids":
+        [
+            28,
+            12,
+            878,
+            14
+        ],
+        "id": 634649,
+        "original_language": "en",
+        "original_title": "Spider-Man: No Way Home",
+        "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "popularity": 7962.394,
+        "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "release_date": "2021-12-15",
+        "title": "Spider-Man: No Way Home",
+        "video": false,
+        "vote_average": 8.8,
+        "vote_count": 573
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/7ajHGIAYNMiIzejy1LJWdPrcAx8.jpg",
+        "genre_ids":
+        [
+            28,
+            35,
+            80,
+            53
+        ],
+        "id": 512195,
+        "original_language": "en",
+        "original_title": "Red Notice",
+        "overview": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
+        "popularity": 2589.711,
+        "poster_path": "/wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
+        "release_date": "2021-11-04",
+        "title": "Red Notice",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 2047
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/5RuR7GhOI5fElADXZb0X2sr9w5n.jpg",
+        "genre_ids":
+        [
+            16,
+            35,
+            10751,
+            14
+        ],
+        "id": 568124,
+        "original_language": "en",
+        "original_title": "Encanto",
+        "overview": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal—every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
+        "popularity": 2459.453,
+        "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+        "release_date": "2021-11-24",
+        "title": "Encanto",
+        "video": false,
+        "vote_average": 7.4,
+        "vote_count": 340
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1Wlwnhn5sXUIwlxpJgWszT622PS.jpg",
+        "genre_ids":
+        [
+            16,
+            35,
+            10751
+        ],
+        "id": 585245,
+        "original_language": "en",
+        "original_title": "Clifford the Big Red Dog",
+        "overview": "As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love.",
+        "popularity": 2366.544,
+        "poster_path": "/ygPTrycbMSFDc5zUpy4K5ZZtQSC.jpg",
+        "release_date": "2021-11-10",
+        "title": "Clifford the Big Red Dog",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 595
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4LrL40XecjGLRpX5I2gzMTUt04l.jpg",
+        "genre_ids":
+        [
+            28,
+            18,
+            36
+        ],
+        "id": 617653,
+        "original_language": "en",
+        "original_title": "The Last Duel",
+        "overview": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
+        "popularity": 1973.01,
+        "poster_path": "/zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+        "release_date": "2021-10-13",
+        "title": "The Last Duel",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 945
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lyvszvJJqqI8aqBJ70XzdCNoK0y.jpg",
+        "genre_ids":
+        [
+            28,
+            12,
+            18,
+            14,
+            878
+        ],
+        "id": 524434,
+        "original_language": "en",
+        "original_title": "Eternals",
+        "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind’s most ancient enemy, the Deviants.",
+        "popularity": 1765.55,
+        "poster_path": "/uaEIEIw9Y7DsvbWWMbG9ySjNF73.jpg",
+        "release_date": "2021-11-03",
+        "title": "Eternals",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 1431
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/upOi9aVqPPky7Ba4GsiyFdjc82I.jpg",
+        "genre_ids":
+        [
+            37,
+            28,
+            53
+        ],
+        "id": 887767,
+        "original_language": "en",
+        "original_title": "Last Shoot Out",
+        "overview": "Soon after a newlywed learns that her husband had her father shot down, she flees from the Callahan ranch in fear. She's rescued by a gunman who safeguards her at a remote outpost as he staves off her husband's attempts to reclaim his bride.",
+        "popularity": 1498.365,
+        "poster_path": "/pvEtPxotI3POlVPvNxgrHJuDXfe.jpg",
+        "release_date": "2021-12-03",
+        "title": "Last Shoot Out",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 33
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/r2GAjd4rNOHJh6i6Y0FntmYuPQW.jpg",
+        "genre_ids":
+        [
+            12,
+            28,
+            53
+        ],
+        "id": 370172,
+        "original_language": "en",
+        "original_title": "No Time to Die",
+        "overview": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+        "popularity": 1359.019,
+        "poster_path": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+        "release_date": "2021-09-29",
+        "title": "No Time to Die",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 2564
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/uWGPC7j70LE64nbetxQGSSYJO53.jpg",
+        "genre_ids":
+        [
+            53,
+            10752
+        ],
+        "id": 762433,
+        "original_language": "en",
+        "original_title": "Zeros and Ones",
+        "overview": "Called to Rome to stop an imminent terrorist bombing, a soldier desperately seeks news of his imprisoned brother — a rebel with knowledge that could thwart the attack. Navigating the capital's darkened streets, he races to a series of ominous encounters to keep the Vatican from being blown to bits.",
+        "popularity": 937.101,
+        "poster_path": "/1ALGmaXQSLQsaefjeu0kHfzFoWD.jpg",
+        "release_date": "2021-11-18",
+        "title": "Zeros and Ones",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 73
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg",
+        "genre_ids":
+        [
+            878,
+            12
+        ],
+        "id": 438631,
+        "original_language": "en",
+        "original_title": "Dune",
+        "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+        "popularity": 909.524,
+        "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+        "release_date": "2021-09-15",
+        "title": "Dune",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 4765
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4JEx2BXhOzuN9pCQcnPSWwCiF0W.jpg",
+        "genre_ids":
+        [
+            16,
+            35,
+            10751
+        ],
+        "id": 785545,
+        "original_language": "en",
+        "original_title": "Shaun the Sheep: The Flight Before Christmas",
+        "overview": "Shaun's seasonal excitement turns to dismay when a farmhouse raid to get bigger stockings for the flock inadvertently leads to Timmy going missing. Can Shaun get Timmy back before he becomes someone else’s present?",
+        "popularity": 764.622,
+        "poster_path": "/1eh6Yv6bAU2ghHxP1zgUlMfaOR3.jpg",
+        "release_date": "2021-12-03",
+        "title": "Shaun the Sheep: The Flight Before Christmas",
+        "video": false,
+        "vote_average": 7,
+        "vote_count": 20
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4gKxQIW91hOTELjY5lzjMbLoGxB.jpg",
+        "genre_ids":
+        [
+            28,
+            53,
+            878
+        ],
+        "id": 763164,
+        "original_language": "en",
+        "original_title": "Apex",
+        "overview": "Ex-cop Thomas Malone is serving a life sentence for a crime he didn’t commit. He is offered a chance at freedom if he can survive a deadly game of Apex, in which six hunters pay for the pleasure of hunting another human on a remote island. He accepts, and once he arrives, all hell breaks loose.",
+        "popularity": 722.027,
+        "poster_path": "/chTkFGToW5bsyw3hgLAe4S5Gt3.jpg",
+        "release_date": "2021-11-12",
+        "title": "Apex",
+        "video": false,
+        "vote_average": 5.5,
+        "vote_count": 279
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/akwg1s7hV5ljeSYFfkw7hTHjVqk.jpg",
+        "genre_ids":
+        [
+            16,
+            35,
+            12,
+            10751
+        ],
+        "id": 459151,
+        "original_language": "en",
+        "original_title": "The Boss Baby: Family Business",
+        "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+        "popularity": 701.919,
+        "poster_path": "/kv2Qk9MKFFQo4WQPaYta599HkJP.jpg",
+        "release_date": "2021-07-01",
+        "title": "The Boss Baby: Family Business",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 1653
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pKgfWzxOpvGV3MQ0kLjLdjKAzUe.jpg",
+        "genre_ids":
+        [
+            18,
+            80
+        ],
+        "id": 785538,
+        "original_language": "pt",
+        "original_title": "7 Prisioneiros",
+        "overview": "An impoverished teen seeking to escape the clutches of a human trafficker must weigh living up to his moral code against his struggle to survive.",
+        "popularity": 648.982,
+        "poster_path": "/5svMKCGnR6Yvj8wxldvDvgUi0Jk.jpg",
+        "release_date": "2021-10-22",
+        "title": "7 Prisoners",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 139
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/kbOB9DGl8qwhDRcXOmXfmcmadeD.jpg",
+        "genre_ids":
+        [
+            18,
+            53
+        ],
+        "id": 645886,
+        "original_language": "en",
+        "original_title": "The Unforgivable",
+        "overview": "A woman is released from prison after serving a sentence for a violent crime and re-enters a society that refuses to forgive her past.",
+        "popularity": 612.695,
+        "poster_path": "/gPQM1zqqsm6Lw1tHF41BwbmOkya.jpg",
+        "release_date": "2021-11-24",
+        "title": "The Unforgivable",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 420
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/tutaKitJJIaqZPyMz7rxrhb4Yxm.jpg",
+        "genre_ids":
+        [
+            16,
+            35,
+            10751,
+            10402
+        ],
+        "id": 438695,
+        "original_language": "en",
+        "original_title": "Sing 2",
+        "overview": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
+        "popularity": 548.1,
+        "poster_path": "/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
+        "release_date": "2021-12-01",
+        "title": "Sing 2",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 27
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/gg2w8QYf6o5elN95RHtikQaVIsc.jpg",
+        "genre_ids":
+        [
+            28,
+            18,
+            80
+        ],
+        "id": 592508,
+        "original_language": "hi",
+        "original_title": "Sooryavanshi",
+        "overview": "A fearless, faithful albeit slightly forgetful Mumbai cop, Veer Sooryavanshi, the chief of the Anti-Terrorism Squad in India pulls out all the stops and stunts to thwart a major conspiracy to attack his city.",
+        "popularity": 485.398,
+        "poster_path": "/8p3mhjyLjHKtaAv8tFKfvEBtir0.jpg",
+        "release_date": "2021-11-05",
+        "title": "Sooryavanshi",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 31
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/wfrfxivLOBtGMC98tIr2LSOeKSe.jpg",
+        "genre_ids":
+        [
+            16,
+            12,
+            35,
+            10751
+        ],
+        "id": 639721,
+        "original_language": "en",
+        "original_title": "The Addams Family 2",
+        "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
+        "popularity": 484.264,
+        "poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
+        "release_date": "2021-10-01",
+        "title": "The Addams Family 2",
+        "video": false,
+        "vote_average": 7.3,
+        "vote_count": 641
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/odKqOY6VE6C59YAdGHB0b5Havye.jpg",
+        "genre_ids":
+        [
+            10751,
+            12,
+            14
+        ],
+        "id": 615666,
+        "original_language": "en",
+        "original_title": "A Boy Called Christmas",
+        "overview": "An ordinary young boy called Nikolas sets out on an extraordinary adventure into the snowy north in search of his father who is on a quest to discover the fabled village of the elves, Elfhelm. Taking with him a headstrong reindeer called Blitzen and a loyal pet mouse, Nikolas soon meets his destiny in this magical and endearing story that proves nothing is impossible…",
+        "popularity": 478.941,
+        "poster_path": "/1sRejtiHOZGggZd9RcmdqbapLM5.jpg",
+        "release_date": "2021-11-25",
+        "title": "A Boy Called Christmas",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 237
+    }
 ]
