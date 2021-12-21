@@ -3,6 +3,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import moviesReducer from './MovieLibrary/store/reducers/moviesReducer'
 import MovieLibrary from './MovieLibrary/components/MovieLibrary'
+import './App.css'
 
 const store = configureStore({
   reducer: {
