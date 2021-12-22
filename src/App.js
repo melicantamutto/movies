@@ -2,12 +2,14 @@ import React from 'react'
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import moviesReducer from './MovieLibrary/store/reducers/moviesReducer'
+import movieModalReducer from './MovieLibrary/store/reducers/movieModalReducer'
 import MovieLibrary from './MovieLibrary/components/MovieLibrary'
 import './App.css'
 
 const store = configureStore({
   reducer: {
-    movies: moviesReducer
+    movies: moviesReducer,
+    movieModal: movieModalReducer
   }
 })
 

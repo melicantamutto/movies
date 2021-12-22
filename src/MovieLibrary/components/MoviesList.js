@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { setMovieModal } from "../store/actions";
 import TMDBImage from "./TMDBImage";
 import { List, Button, Card } from "antd";
 import "./MoviesList.sass";
@@ -50,14 +52,19 @@ export default function MoviesList({ movies }) {
 // )
 
 function MovieListItem({ movie, isSelected, onSelect }) {
-  const handleClick = () => onSelect(movie);
+  const dispatch = useDispatch();
+  const handleClick = () => {
+    dispatch(setMovieModal(movie));
+  };
   const { title, vote_average, poster_path } = movie;
   const className = `movie-list-item ${isSelected ? "selected" : ""}`;
   return (
     <Card
       hoverable
       style={{ width: 240 }}
-      cover={<img alt={title} src={IMAGE_PATH + poster_path} />}
+      cover={
+        <img alt={title} src={IMAGE_PATH + poster_path} onClick={handleClick} />
+      }
     >
       <Meta title={title} description={vote_average} />
     </Card>

@@ -1,17 +1,24 @@
 import React, { useEffect } from 'react'
 import {useDispatch, useSelector} from 'react-redux'
-import {fetchTopRatedMovies} from '../store/actions'
+import {eraseMovieModal, fetchTopRatedMovies} from '../store/actions'
 import logo from './logo.svg'
 import './MovieLibrary.css'
-import { getMovies } from '../store/selectors'
+import { getMovies, getMovieModal } from '../store/selectors'
 import MoviesList from './MoviesList'
+import ModalMovie from './ModalMovie'
 
 export default function MovieLibrary() {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(fetchTopRatedMovies())
   }, [])
+  const movieModal = useSelector(getMovieModal);
   const movies = useSelector(getMovies)
+
+  const handleCloseModal = () =>{
+    dispatch(eraseMovieModal())
+  }
+
   return(
     <div className="MovieLibrary">
       <header className="ML-header">
@@ -21,5 +28,6 @@ export default function MovieLibrary() {
       <div className="ML-intro">
         { movies.length && <MoviesList movies={movies}/> }
       </div>
+      {movieModal.title && <ModalMovie movie={movieModal}/>}
     </div>)
 }

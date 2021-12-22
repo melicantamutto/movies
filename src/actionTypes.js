@@ -1,1 +1,3 @@
 export const LOAD_MOVIES = 'LOAD_MOVIES'
+export const MOVIE_MODAL = 'MOVIE_MODAL'
+export const ERASE_MOVIE_MODAL = 'ERASE_MOVIE_MODAL'
