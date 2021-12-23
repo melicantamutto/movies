@@ -47,14 +47,15 @@ export default function MoviesList({ movies }) {
       <List
         dataSource={movies}
         grid={{
-          gutter: 3,
+          gutter: 2,
           xs: 1,
           sm: 2,
-          md: 4,
+          md: 3,
           lg: 4,
-          xl: 7,
-          xxl: 7,
+          xl: 5,
+          xxl: 6,
         }}
+        className="list"
         renderItem={(movie) => (
           <List.Item>
             <MovieListItem movie={movie} />
@@ -74,7 +75,7 @@ function MovieListItem({ movie }) {
   return (
     <Card
       hoverable
-      style={{ width: 240 }}
+      style={{ width: 235 }}
       cover={
         <img alt={title} src={POSTER_URL + poster_path} onClick={handleClick} />
       }
