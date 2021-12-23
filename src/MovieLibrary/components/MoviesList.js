@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { fetchTopRatedMovies, setMovieModal, setFilteredMovies } from "../store/actions";
+import { useDispatch, useSelector } from "react-redux";
+import { setMovieModal, setFilteredMovies, fetchTopRatedMovies } from "../store/actions";
 import { List, Card, Select, Button } from "antd";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import "./MoviesList.sass";
-// import InfiniteScroll from 'react-infinite-scroll-component';
-import { POSTER_URL } from "../utils/utils";
+
+import { BASE_URL, API_KEY, fetchFromUrl, POSTER_URL } from "../utils/utils";
 const { Meta } = Card;
 const { Option } = Select;
 
 export default function MoviesList({ movies }) {
-  console.log('====================================');
-  console.log(movies);
-  console.log('====================================');
   const dispatch = useDispatch();
-  const [sortingType, setSortingType] = useState("");
   const [loadingMovies, setLoadingMovies] = useState(false);
-
+  const [sortingType, setSortingType] = useState("");
+  
   const handleSortingChange = (value) => {
     setSortingType(value);
   };
@@ -39,12 +36,12 @@ export default function MoviesList({ movies }) {
       });
       dispatch(setFilteredMovies(moviesSorted));
     }
-   
+
     setLoadingMovies(false);
   }, [sortingType]);
 
   return (
-    <div className="list-container">
+    <div className="list-container" >
       <div className="list-container__sort">
         <span>Sort: </span>
         <Select
@@ -59,7 +56,27 @@ export default function MoviesList({ movies }) {
           <Option value="rating">Rating</Option>
         </Select>
       </div>
-      <List
+     
+     
+        <List
+          dataSource={movies}
+          grid={{
+            gutter: 3,
+            xs: 1,
+            sm: 2,
+            md: 4,
+            lg: 4,
+            xl: 7,
+            xxl: 7,
+          }}
+          renderItem={(movie) => (
+            <List.Item>
+              <MovieListItem movie={movie} />
+            </List.Item>
+          )}
+        />
+    
+      {/* <List
         loading={loadingMovies}
         grid={{
           gutter: 3,
@@ -76,7 +93,7 @@ export default function MoviesList({ movies }) {
             <MovieListItem movie={movie} />
           </List.Item>
         )}
-      />
+      /> */}
       <Button
         type="primary"
         icon={<ArrowUpOutlined />}

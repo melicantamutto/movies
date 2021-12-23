@@ -9,7 +9,7 @@ import './App.css'
 const store = configureStore({
   reducer: {
     movies: moviesReducer,
-    movieModal: movieModalReducer
+    movieModal: movieModalReducer,
   }
 })
 

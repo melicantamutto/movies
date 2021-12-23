@@ -7,5 +7,5 @@ export const BACKDROP_URL = 'https://image.tmdb.org/t/p/original/'
 
 export const fetchFromUrl = async (url) =>{
     const resp = await axios.get(url)
-    return resp
+    return resp.data.results;
 }
