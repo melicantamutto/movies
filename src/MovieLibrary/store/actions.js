@@ -1,10 +1,10 @@
-import {LOAD_MOVIES, MOVIE_MODAL, ERASE_MOVIE_MODAL} from '../../actionTypes'
+import {FETCH_MOVIES, MOVIE_MODAL, ERASE_MOVIE_MODAL} from '../../actionTypes'
 import topRatedMovies from '../mocks/topTatedMovies'
 
-export function fetchTopRatedMovies() {
+export function fetchTopRatedMovies(movies = topRatedMovies) {
   return {
-    type: LOAD_MOVIES,
-    payload: topRatedMovies
+    type: FETCH_MOVIES,
+    payload: movies
   }
 }
 

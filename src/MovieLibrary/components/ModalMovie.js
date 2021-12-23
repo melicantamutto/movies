@@ -8,7 +8,6 @@ import "./ModalMovie.sass";
 const IMAGE_PATH = "https://image.tmdb.org/t/p/w500/";
 
 export default function MovieLibrary({ movie }) {
-  console.log(movie);
   const {
     title,
     original_title,
