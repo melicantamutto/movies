@@ -1,17 +1,17 @@
-import {FETCH_MOVIES, FILTER_MOVIES} from '../../../actionTypes'
+import { FETCH_MOVIES, FILTER_MOVIES } from "../../../actionTypes";
 
-const initialState = []
+const initialState = [];
 
 export default function (state = initialState, action) {
-  const {type, payload} = action
+  const { type, payload } = action;
   switch (type) {
     case FILTER_MOVIES:
-      return [...payload]
+      return [...payload];
 
     case FETCH_MOVIES:
-      return [ ...state, ...payload]
+      return [...state, ...payload];
 
     default:
-      return state
+      return state;
   }
 }

@@ -1,12 +1,10 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { eraseMovieModal } from "../store/actions";
-import { Col, Row } from "antd";
-import Modal from "antd/lib/modal/Modal";
-import moment from "moment";
+import { eraseMovieModal } from "../../store/actions";
+import { Col, Row, Modal } from "antd";
 import "./ModalMovie.sass";
-import {POSTER_URL, BACKDROP_URL} from '../utils/utils';
-
+import moment from "moment";
+import { POSTER_URL, BACKDROP_URL } from "../../utils/utils";
 
 export default function MovieLibrary({ movie }) {
   const {
@@ -18,7 +16,7 @@ export default function MovieLibrary({ movie }) {
     vote_count,
     release_date,
     backdrop_path,
-    original_language
+    original_language,
   } = movie;
   const dispatch = useDispatch();
 
@@ -49,25 +47,23 @@ export default function MovieLibrary({ movie }) {
             <div>
               <h1 className="info__mainTitle">
                 {title}
-                <span>
-                  {" "}
-                  ~ {moment(release_date, "YYYY-MM-DD").format("YYYY")} ~ {original_language.toUpperCase()}
-                </span>
+                <span> ~ {original_language.toUpperCase()}</span>
               </h1>
             </div>
             <div>
               <h2 className="info__subTitle">
-                Original title: {original_title}
+                {moment(release_date, "YYYY-MM-DD").format("MMM D YYYY")}
               </h2>
+              <p className="info__description">
+                Original title: {original_title}
+              </p>
               <h3 className="info__subTitle">Overview</h3>
               <p className="info__description">{overview}</p>
               <h3 className="info__subTitle">Score</h3>
-              <p className="info__score"><span className="info__score__number">{vote_average}</span> between {vote_count} voters</p>
-              {/* <ul className="info__genres">
-                {genres.map((genre) => (
-                  <li key={genre.id}>{genre.name}</li>
-                ))}
-              </ul> */}
+              <p className="info__score">
+                <span className="info__score__number">{vote_average}</span>{" "}
+                among {vote_count} voters
+              </p>
             </div>
           </Col>
         </Row>

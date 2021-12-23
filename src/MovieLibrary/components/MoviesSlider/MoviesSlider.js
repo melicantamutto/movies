@@ -1,13 +1,13 @@
 import React from "react";
 import { Carousel, Button } from "antd";
 import "./MoviesSlider.sass";
-import { BACKDROP_URL} from '../utils/utils';
+import { BACKDROP_URL } from "../../utils/utils";
 import { useDispatch } from "react-redux";
-import { setMovieModal } from "../store/actions";
+import { setMovieModal } from "../../store/actions";
 
 export default function MoviesList({ movies }) {
-  const moviesReduced = [...movies]
-  moviesReduced.length = 8
+  const moviesReduced = [...movies];
+  moviesReduced.length = 8;
   return (
     <Carousel autoplay>
       {moviesReduced.map((movie) => (
@@ -25,10 +25,10 @@ const Movie = ({ movie }) => {
   };
   return (
     <div
-      className="slider__movie"
+      className="slider"
       style={{ backgroundImage: `url("${BACKDROP_URL + backdropPath}")` }}
     >
-      <div className="slider__movie-data">
+      <div className="slider__data">
         <div>
           <h2>{title}</h2>
           <p>{overview}</p>

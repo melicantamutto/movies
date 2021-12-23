@@ -1,27 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchTopRatedMovies, setOneMorePage } from "../store/actions";
-import { Skeleton, Divider } from "antd";
+import { fetchTopRatedMovies } from "../store/actions";
+import { getMovies, getMovieModal } from "../store/selectors";
+import InfiniteScroll from "react-infinite-scroll-component";
+import { Skeleton, Divider, Button } from "antd";
+import { ArrowUpOutlined } from "@ant-design/icons";
 import logo from "./logo.svg";
 import "./MovieLibrary.sass";
-import { getMovies, getMovieModal, getPage } from "../store/selectors";
-import MoviesList from "./MoviesList";
-import ModalMovie from "./ModalMovie";
-import MoviesSlider from "./MoviesSlider";
+import MoviesList from "./MoviesList/MoviesList";
+import ModalMovie from "./ModalMovie/ModalMovie";
+import MoviesSlider from "./MoviesSlider/MoviesSlider";
 import { BASE_URL, API_KEY, fetchFromUrl } from "../utils/utils";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function MovieLibrary() {
   const dispatch = useDispatch();
   const [loadingMovies, setLoadingMovies] = useState(false);
   const movieModal = useSelector(getMovieModal);
   const movies = useSelector(getMovies);
-  // const page = useSelector(getPage);
+
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    for (let i = 1; i < 4; i++) {
-     setPage(page + 1)
+    for (let i = 0; i < 3; i++) {
+      setPage(page + 1);
     }
   }, []);
 
@@ -36,8 +37,6 @@ export default function MovieLibrary() {
 
   const loadMoreData = () => {
     if (loadingMovies) return;
-    dispatch(setOneMorePage());
-    console.log("ENTRE A LA FUNCION!!!!!");
     setLoadingMovies(true);
     setPage(page + 1);
   };
@@ -45,7 +44,7 @@ export default function MovieLibrary() {
   return (
     <div className="MovieLibrary" id="scrollableDiv">
       <InfiniteScroll
-        dataLength={movies.length} //This is important field to render the next data
+        dataLength={movies.length}
         next={loadMoreData}
         hasMore={true}
         loader={<Skeleton avatar paragraph={{ rows: 1 }} active />}
@@ -63,6 +62,23 @@ export default function MovieLibrary() {
         </div>
         {movieModal.title && <ModalMovie movie={movieModal} />}
       </InfiniteScroll>
+      <ScrollToTopButton />
     </div>
   );
 }
+
+const ScrollToTopButton = () => (
+  <Button
+    type="primary"
+    icon={<ArrowUpOutlined />}
+    size="large"
+    shape="circle"
+    className="up-button"
+    onClick={() =>
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    }
+  />
+);
