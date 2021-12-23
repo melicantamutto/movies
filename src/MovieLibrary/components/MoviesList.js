@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { fetchTopRatedMovies, setMovieModal } from "../store/actions";
-import { List, Card, Select } from "antd";
+import { fetchTopRatedMovies, setMovieModal, setFilteredMovies } from "../store/actions";
+import { List, Card, Select, Button } from "antd";
+import { ArrowUpOutlined } from "@ant-design/icons";
 import "./MoviesList.sass";
-import { getMovies } from "../store/selectors";
 // import InfiniteScroll from 'react-infinite-scroll-component';
-
-const IMAGE_PATH = "https://image.tmdb.org/t/p/w500/";
+import { POSTER_URL } from "../utils/utils";
 const { Meta } = Card;
 const { Option } = Select;
 
 export default function MoviesList({ movies }) {
+  console.log('====================================');
+  console.log(movies);
+  console.log('====================================');
   const dispatch = useDispatch();
   const [sortingType, setSortingType] = useState("");
   const [loadingMovies, setLoadingMovies] = useState(false);
@@ -20,7 +22,7 @@ export default function MoviesList({ movies }) {
   };
 
   useEffect(() => {
-    setLoadingMovies(true)
+    setLoadingMovies(true);
     if (sortingType !== "") {
       const moviesSorted = [...movies].sort((a, b) => {
         if (sortingType === "name_asc") {
@@ -35,9 +37,10 @@ export default function MoviesList({ movies }) {
           return b.vote_average - a.vote_average;
         }
       });
-      dispatch(fetchTopRatedMovies(moviesSorted));
+      dispatch(setFilteredMovies(moviesSorted));
     }
-    setLoadingMovies(false)
+   
+    setLoadingMovies(false);
   }, [sortingType]);
 
   return (
@@ -74,11 +77,18 @@ export default function MoviesList({ movies }) {
           </List.Item>
         )}
       />
+      <Button
+        type="primary"
+        icon={<ArrowUpOutlined />}
+        size="large"
+        shape="circle"
+        className="up-button"
+      />
     </div>
   );
 }
 
-function MovieListItem({ movie, isSelected, onSelect }) {
+function MovieListItem({ movie }) {
   const dispatch = useDispatch();
   const handleClick = () => {
     dispatch(setMovieModal(movie));
@@ -89,7 +99,7 @@ function MovieListItem({ movie, isSelected, onSelect }) {
       hoverable
       style={{ width: 240 }}
       cover={
-        <img alt={title} src={IMAGE_PATH + poster_path} onClick={handleClick} />
+        <img alt={title} src={POSTER_URL + poster_path} onClick={handleClick} />
       }
     >
       <Meta title={title} description={vote_average} />

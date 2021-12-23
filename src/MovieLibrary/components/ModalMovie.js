@@ -5,7 +5,8 @@ import { Col, Row } from "antd";
 import Modal from "antd/lib/modal/Modal";
 import moment from "moment";
 import "./ModalMovie.sass";
-const IMAGE_PATH = "https://image.tmdb.org/t/p/w500/";
+import {POSTER_URL, BACKDROP_URL} from '../utils/utils';
+
 
 export default function MovieLibrary({ movie }) {
   const {
@@ -36,12 +37,12 @@ export default function MovieLibrary({ movie }) {
     >
       <div
         className="movie"
-        style={{ backgroundImage: `url('${IMAGE_PATH + backdrop_path}')` }}
+        style={{ backgroundImage: `url('${BACKDROP_URL + backdrop_path}')` }}
       >
         <Row className="movie__dark">
           <Col xs={18} sm={18} md={8} offset={3} className="movie__poster">
             <div
-              style={{ backgroundImage: `url('${IMAGE_PATH + poster_path}')` }}
+              style={{ backgroundImage: `url('${POSTER_URL + poster_path}')` }}
             ></div>
           </Col>
           <Col xs={24} sm={12} md={10} className="movie__info">
